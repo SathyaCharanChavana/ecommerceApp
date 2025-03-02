@@ -25,7 +25,7 @@ public class OrderRepoTest {
     @Autowired
     CustomerRepository customerRepository;
     @Autowired
-    OrderItemrepository orderItemrepository;
+    OrderItemRepository orderItemrepository;
     @Test
     void createOrder(){
         Order order=new Order();
